@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import * as Location from 'expo-location';
+import * as Location from 'expo-location/build/Location';
 
 export default function useEncontrarDiarista() {
   const [cepAutomatico, setCepAutomatico] = useState(''),
